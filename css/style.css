@@ -1,6 +1,6 @@
 @import url(default.css);
 
-/* 헤더 */
+/* í—¤ë” */
 header{height: 355px;width: 100%;background: url(../image/sub_visual_board.jpg) center top no-repeat;background-size:cover;color: white;position: relative;}
 header h2.logo{float: left;padding: 38px 0 0 80px;}
 header h2.logo img{width: 170px;}
@@ -11,7 +11,7 @@ header .lnb ul{height: 68px;width: 60.9375vw;}
 header .lnb ul li{width: 32.33%;float: left;text-align: center;border: 1px solid #c6c6c6;height: 68px;line-height: 68px;font-size: 22px;border-top: none;background-color: white;color: black;}
 header .lnb ul li:last-child{background: #193b8f url(../image/lnb_bg.png) center right no-repeat;color: white;border: none;}
 
-/* 섹션 */
+/* ì„¹ì…˜ */
 section{height: 965px;}
 section .page-title{height: 130px;text-align: center;margin-bottom: 38px;}
 section .page-title h2{color: #222;display: inline-block;font-size: 48px;font-weight: bold;line-height: 1;padding-top: 80px;}
@@ -42,11 +42,20 @@ section .board-period{width: 56.77vw;text-align: right;margin: 75px auto 0 auto;
 section .board-period a{background-color: #112d6c;color: white;padding: 10px 20px;}
 
 
-/* 푸터 */
+/* í‘¸í„° */
 footer{height: 170px;width: 100%;background-color: #222;}
+footer h2{float: left; margin: 40px 0 0 10px;}
+footer h2 img{width: 185px;}
+footer address{margin: 55px 0 0 35px;float: left;}
+footer address p{color: #777674;font-size: 14px;}
+footer .footer-select{float: right;width: 238px;border-bottom: 1px solid #777674;margin-top: 58px;}
+footer .footer-select .footer-btn-plus{margin: 0px 0px 15px 18px;}
+footer .footer-select .footer-btn-plus a{color: #beb4a0;}
+footer .footer-select .footer-btn-plus a:before{position: absolute;content: '';right: 20px;top: 63px;background: url(../image/footer_btn_more.png) center no-repeat;width: 16px;height: 16px;background-size: cover;}
 
 
-/* 미디어 쿼리 */
+
+/* ë¯¸ë””ì–´ ì¿¼ë¦¬ */
 @media (max-width: 1290px){
     .container{width: 100%;}
 }
