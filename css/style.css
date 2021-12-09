@@ -1,24 +1,25 @@
 @import url(default.css);
 
-/* í—¤ë” */
+/* 헤더 */
 header{height: 355px;width: 100%;background: url(../image/sub_visual_board.jpg) center top no-repeat;background-size:cover;color: white;position: relative;}
 header h2.logo{float: left;padding: 38px 0 0 80px;}
 header h2.logo img{width: 170px;}
 header .gnb{float: right;padding: 53px 20px 0 0;}
+header .gnb a img{width: 0;}
 header .gnb ul li{display: inline-block;margin-right: 4.79vw;}
 header .gnb ul li a{color: white;}
 header .lnb{bottom: -1px;}
-header .lnb ul{height: 68px;width: 60.9375vw;}
-header .lnb ul li{width: 32.33%;float: left;text-align: center;border: 1px solid #c6c6c6;height: 68px;line-height: 68px;font-size: 22px;border-top: none;background-color: white;color: black;}
+header .lnb ul{height: 68px;}
+header .lnb ul li{width:316px;float: left;text-align: center;border: 1px solid #c6c6c6;height: 68px;line-height: 68px;font-size: 22px;border-top: none;background-color: white;color: black;}
 header .lnb ul li:last-child{background: #193b8f url(../image/lnb_bg.png) center right no-repeat;color: white;border: none;}
 
-/* ì„¹ì…˜ */
+/* 섹션 */
 section{height: 965px;}
 section .page-title{height: 130px;text-align: center;margin-bottom: 38px;}
 section .page-title h2{color: #222;display: inline-block;font-size: 48px;font-weight: bold;line-height: 1;padding-top: 80px;}
 section .page-title a{margin-left: 10px;}
 section .page-title img{width: 50px;}
-section .content{width: 56.77vw;height: 580px;margin: 0 auto;}
+section .content{height: 580px;margin: 0 auto;}
 section .content .search{width: 360px;height: 37px;float: right;border-bottom: 3px solid #3c3c3c;}
 section .content .search input{border: 0;margin-left: 27px;}
 section .content .search input:focus{outline: none;}
@@ -39,11 +40,11 @@ section .content .table .table-list ul li.date{float: right;width: 185px;}
 section .content .page-number{margin-top: 45px;}
 section .content .page-number ul li{vertical-align: middle;display: inline-block;line-height: 1;margin-right: 25px;}
 section .content .page-number ul li a img{width: 20px;height: 40px;}
-section .board-period{width: 56.77vw;text-align: right;margin: 75px auto 0 auto;}
+section .board-period{text-align: right;margin: 75px auto 0 auto;}
 section .board-period a{background-color: #112d6c;color: white;padding: 10px 20px;}
 
 
-/* í‘¸í„° */
+/* 푸터 */
 footer{height: 170px;width: 100%;background-color: #222;}
 footer h2{float: left; margin: 40px 0 0 10px;}
 footer h2 img{width: 185px;}
@@ -51,20 +52,42 @@ footer address{margin: 55px 0 0 35px;float: left;}
 footer address p{color: #777674;font-size: 14px;}
 footer .footer-select{float: right;width: 238px;border-bottom: 1px solid #777674;margin-top: 58px;}
 footer .footer-select .footer-btn-plus{margin: 0px 0px 15px 18px;}
-footer .footer-select .footer-btn-plus a{color: #beb4a0;}
+footer .footer-select .footer-btn-plus a{color: #bebebe;}
 footer .footer-select .footer-btn-plus a:before{position: absolute;content: '';right: 20px;top: 63px;background: url(../image/footer_btn_more.png) center no-repeat;width: 16px;height: 16px;background-size: cover;}
 
 
 
-/* ë¯¸ë””ì–´ ì¿¼ë¦¬ */
+/* 미디어 쿼리 */
 @media (max-width: 1290px){
     .container{width: 100%;}
 }
-@media (max-width: 1200px){
-    
-}
 @media (max-width: 1024px){
-    
+    header h2.logo{padding: 38px 0 0 30px;}
+    header h2.logo img{width: 262px;}    
+    header .gnb{padding: 53px 55px 0 0;} 
+    header .gnb ul{display:none;}
+    header .gnb a img{width: 47px;}
+    header .lnb ul li{width: 84.57vw;font-size: 30px;height: 93px;line-height: 93px;font-size: 40px;}
+    section{height: 1400px;}
+    section .page-title{display: none;}
+    section .content{width: 95vw;margin: 0 auto;height: 1175px;}
+    section .content .search{margin: 118px 0 35px 0;width: 100%;height: 80px;}
+    section .content .search input{font-size: 30px;}
+    section .content .search img{width: 50px;}
+    section .content .table .table-head{display: none;}
+    section .content .table .table-list ul li{text-align: left;font-size: 20px;}
+    section .content .table .table-list ul li.date{float: none;}   
+    section .content .table .table-list ul li.subject a{font-size: 28px;}
+    section .content .table .table-list ul li.subject .list-new{width: 35px;}
+    section .content .table .table-list ul li.number{display: none;}    
+    section .content .page-number{text-align: center;font-size: 21px;}
+    section .content .page-number ul li a img{width: 34px;height: 64px;}
+    section .board-period{text-align: center;margin:0 auto;width: 933px;}
+    section .board-period a{font-size: 20px;padding: 25px;display: block;}
+    footer{height: 435px;}
+    footer .footer-select{float: none;width: 925px;margin:0 auto ;font-size: 43px;}
+    footer h2{float: none;}
+    footer address{float: none;}
 }
 @media (max-width: 960px){
     
