@@ -110,3 +110,6 @@ footer .footer-select .footer-btn-plus a:before{position: absolute;content: '';r
     footer address{margin: 20px;}
     footer address p{font-size: 12px;}
 }
+@media (max-width: 435px){
+    section .content .table .table-list ul li.subject a{font-size: 18px;}
+}
