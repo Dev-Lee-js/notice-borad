@@ -85,9 +85,12 @@ footer .footer-select .footer-btn-plus a:before{position: absolute;content: '';r
     section .board-period{text-align: center;margin:0 auto;width: 933px;}
     section .board-period a{font-size: 20px;padding: 25px;display: block;}
     footer{height: 435px;}
-    footer .footer-select{float: none;width: 925px;margin:0 auto ;font-size: 43px;}
-    footer h2{float: none;}
+    footer .footer-select{float: none;width: 925px;margin:0 auto ;font-size: 43px;border-bottom: 3px solid #777674;padding-top: 35px;}
+    footer .footer-select .footer-btn-plus a:before{width: 45px;height: 45px;top: 45px;right: 45px;}
+    footer h2{float: none;text-align: center;}
+    footer h2 img{width: 290px;}
     footer address{float: none;}
+    footer address p{text-align: center;font-size: 22px;}
 }
 @media (max-width: 960px){
     
