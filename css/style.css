@@ -82,28 +82,31 @@ footer .footer-select .footer-btn-plus a:before{position: absolute;content: '';r
     section .content .table .table-list ul li.number{display: none;}    
     section .content .page-number{text-align: center;font-size: 21px;}
     section .content .page-number ul li a img{width: 34px;height: 64px;}
-    section .board-period{text-align: center;margin:0 auto;width: 933px;}
+    section .board-period{text-align: center;margin:0 auto;width: 94vw;}
     section .board-period a{font-size: 20px;padding: 25px;display: block;}
     footer{height: 435px;}
-    footer .footer-select{float: none;width: 925px;margin:0 auto ;font-size: 43px;border-bottom: 3px solid #777674;padding-top: 35px;}
+    footer .footer-select{float: none;width:94vw;margin:0 auto ;font-size: 43px;border-bottom: 3px solid #777674;padding-top: 35px;}
     footer .footer-select .footer-btn-plus a:before{width: 45px;height: 45px;top: 45px;right: 45px;}
     footer h2{float: none;text-align: center;}
     footer h2 img{width: 290px;}
     footer address{float: none;}
     footer address p{text-align: center;font-size: 22px;}
 }
-@media (max-width: 960px){
-    
-}
 @media (max-width: 768px){
-    
-}
-@media (max-width: 600px){
-    
-}
-@media (max-width: 480px){
-    
-}
-@media (max-width: 320px){
-    
+    header{height: 189px;}
+    header h2.logo img{width: 133px;}
+    header .gnb a img{width: 23px;}
+    header .lnb ul{height: 47px;}
+    header .lnb ul li{height: 46px;line-height: 46px;font-size: 20px;}    
+    section .content .search{height: 40px;}
+    section .content .search img{width: 25px;}
+    section .content .search input{font-size: 20px;}
+    section .content .table .table-list ul li.subject a{font-size: 20px;}
+    section .content .table .table-list ul li.subject .list-new{width: 14px;height: 14px;}
+    footer{height: 280px;}
+    footer .footer-select{font-size: 20px;}
+    footer .footer-select .footer-btn-plus a:before{width: 23px;height: 23px;top: 38px;right: 35px;}
+    footer h2 img{width: 144px;}
+    footer address{margin: 20px;}
+    footer address p{font-size: 12px;}
 }
