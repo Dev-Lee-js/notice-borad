@@ -111,5 +111,9 @@ footer .footer-select .footer-btn-plus a:before{position: absolute;content: '';r
     footer address p{font-size: 12px;}
 }
 @media (max-width: 435px){
+    header h2.logo img{width: 110px;}
+    section .board-period a{font-size: 16px;}
+    section .content .table .table-list ul li{font-size: 16px;}
     section .content .table .table-list ul li.subject a{font-size: 16px;}
+    footer address p{font-size: 11px;}
 }
